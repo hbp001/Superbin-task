@@ -15,7 +15,7 @@
 4. epoch = 30
 5. Augmentation : Resize((224,224)), RandomHorizontalFlip()
 6. normalize (0.5)
-7. loss = 0.71, val_acc = 99.12
+7. loss = 0.0041, val_acc = 99.12
 ### Model Select
 
  Class의 개수가 4개로 많지 않고, 학습 시간도 굉장히 오래 걸리는 Task였기 때문에 비교적 작은 크기의 model인 resnet18을 선택했습니다.
